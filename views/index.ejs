@@ -113,7 +113,7 @@
 <section class="pb-4 pt-4">
   <div class="d-flex mb-2 align-items-center">
     <h2>American Recipes</h2>
-    <a href="/categories/Indian" class="ms-auto">View More...</a>
+    <a href="/categories/American" class="ms-auto">View More...</a>
   </div>
 
   <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
@@ -139,7 +139,7 @@
 <section class="pb-4 pt-4">
   <div class="d-flex mb-2 align-items-center">
     <h2>Italian Recipes</h2>
-    <a href="/categories/Indian" class="ms-auto">View More...</a>
+    <a href="/categories/Italian" class="ms-auto">View More...</a>
   </div>
 
   <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
@@ -165,7 +165,7 @@
 <section class="pb-4 pt-4">
   <div class="d-flex mb-2 align-items-center">
     <h2>Chinese Recipes</h2>
-    <a href="/categories/Indian" class="ms-auto">View More...</a>
+    <a href="/categories/Chinese" class="ms-auto">View More...</a>
   </div>
 
   <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
@@ -191,12 +191,12 @@
 <section class="pb-4 pt-4">
   <div class="d-flex mb-2 align-items-center">
     <h2>Mexican Recipes</h2>
-    <a href="/categories/Indian" class="ms-auto">View More...</a>
+    <a href="/categories/Mexican" class="ms-auto">View More...</a>
   </div>
 
   <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
     <%if(typeof food.mexican !== 'undefined' && food.mexican.length > 0){%> 
-    <% food.chinese.forEach(function(recipe,index){%>
+    <% food.mexican.forEach(function(recipe,index){%>
     <a href="/recipe/<%-recipe._id%>" class="col text-center category__link">
       <div class="category__img category__img--large shadow">
         <img
